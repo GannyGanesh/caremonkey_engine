@@ -1,0 +1,18 @@
+development:
+  api:
+    host: "http://localhost:3000"
+  web:
+    host: "localhost:3001"
+
+test:
+  api:
+    host: "http://localhost:3000"
+  web:
+    host: "localhost:3001"
+
+
+production:
+  api:
+    host: "http://api-caremonkey.heroku.com"
+  web:
+    host: "caremonkey.heroku.com"
