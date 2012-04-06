@@ -18,6 +18,9 @@ class CaremonkeyGenerator < Rails::Generators::Base
   end
 
   def create_migration_file
-    migration_template 'migration.rb', 'db/migrate/create_team_members_table.rb'
+    migration_template '20120405025747_create_attachments.rb', 'db/migrate/20120405025747_create_attachments.rb'
+    migration_template '20120405025950_create_user_profiles.rb', 'db/migrate/20120405025950_create_user_profiles.rb'
+    migration_template '20120405030210_create_subjects.rb', 'db/migrate/20120405030210_create_subjects.rb'
+    migration_template '20120405030637_devise_create_users.rb', 'db/migrate/20120405030637_devise_create_users.rb'
   end
 end

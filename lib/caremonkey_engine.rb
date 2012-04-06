@@ -1,12 +1,11 @@
 require "active_support/dependencies"
-require "caremonkey/engine"
 module CaremonkeyEngine
   # Our host application root path
   # We set this when the engine is initialized
-  mattr_accessor :app_root
-
+ class Engine < Rails::Engine; end
   # Yield self on setup for nice config blocks
   def self.setup
     yield self
   end
-end
+end	
+require "caremonkey_engine/engine"
