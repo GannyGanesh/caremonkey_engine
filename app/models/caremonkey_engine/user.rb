@@ -1,4 +1,4 @@
-module caremonkey_engine
+module CaremonkeyEngine
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable

@@ -7,7 +7,7 @@ require File.expand_path("../lib/caremonkey_engine/version", __FILE__)
 # Enginex project in your Rails apps through Git.
 Gem::Specification.new do |s|
   s.name                      = "caremonkey_engine"
-  s.version                   = CaremonkeyEngine::VERSION
+  s.version                   = Caremonkey::VERSION
   s.platform                  = Gem::Platform::RUBY
   s.authors                   = [ "Parthiban" ]
   s.email                     = [ "parthiban@railsfactory.org" ]

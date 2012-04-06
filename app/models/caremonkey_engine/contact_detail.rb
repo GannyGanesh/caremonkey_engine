@@ -1,4 +1,4 @@
-module caremonkey_engine
+module CaremonkeyEngine
 class ContactDetail < ActiveRecord::Base
 has_one :attachment, :as => :attachable
 	belongs_to :user

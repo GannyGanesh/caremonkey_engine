@@ -1,4 +1,4 @@
-module caremonkey_engine
+module CaremonkeyEngine
 class Profile < ActiveRecord::Base
 end
 end
